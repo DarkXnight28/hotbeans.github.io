@@ -1,0 +1,127 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-size: montserrat;
+}
+nav{
+	width: 100%;
+	background: gold;
+	height: 80px;
+	width:100%;
+}
+.logo img{
+	position: absolute;
+	margin-top: 5px;
+	margin left: 10px;
+	width: 75px;
+	cursor: pointer;
+}
+nav ul{
+	float: right;
+	margin-right: 300px;
+	}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin-right: 0 5px;	
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	text transform: uppercase;
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 30px;
+	background-color: black;
+	text-align: center;
+}
+nav a:hover{
+	background: red;
+}
+h1{
+	
+	margin: 50px auto;
+	border: 2px solid red;
+	padding: 10px;
+	border-radius: 30px;
+   	width: 215px;
+   	font-size: 30px;
+   	font-weight: bold;
+   	font-family: monospace;
+}
+
+#box1, #box2{
+	width:300px;
+	height:100px;
+	margin:10px;
+	padding:10px;
+}
+#box1 {
+	border:2px solid red;
+
+}
+#box2{
+	border:2px solid red;
+}
+#box3{
+	border:2px solid red;
+	width:300px;
+	height:150px;
+	margin:10px;
+	padding:10px;
+}
+p{
+	font-size: 25px;
+}
+h2{
+	font-size: 40px;
+}
+h3{
+	font-size: 40px;
+}
+h4{
+	font-size: 40px;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 2px solid black; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 2px;
+  background-color: gold;
+  padding: 20px;
+}
+iframe{
+	margin: 50px;
+	margin-left: 400px;
+	margin-top: -400px;
+}
+	
